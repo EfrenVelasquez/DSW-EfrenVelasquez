@@ -1,0 +1,49 @@
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #00FFD1;
+    padding: 30px;
+    list-style: center;
+   
+}
+.barranavegacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #31C6D4;
+    padding: 30px;
+    
+}
+.contenedor{
+    background-color:#FFFF00 ;
+    padding: 30px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+}
+.principal{
+    background-color: #D4F6CC;
+    padding: 30px;
+    grid-column: 2/5;
+    
+}
+.contenedorlateral{
+    background-color: blue;
+    padding: 30px;
+    grid-column: 1/2;
+}
+.piepagina{
+    background-color: #00FFD1;
+    padding: 30px;
+    text-align: center;
+}
+.barranavegacion ul{
+    list-style: none;
+    text-align: center;
+}
+.espacio{
+    justify-content: space-between;
+}
+.editar{
+    text-align: center;
+}
